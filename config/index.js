@@ -130,10 +130,10 @@ export const USER_CONFIG = {
       openUrl: "https://wangxinleo.cn",
       festivals: [],
       customizedDateList: []
-    },
+    },*/
     // 你可以不断按格式往下增加
     // ...
-  ],*/
+  ],
   
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
