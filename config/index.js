@@ -6,12 +6,12 @@ export const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wxfe82d6f9ae370943",
   
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "50b6714e113292981f5320351fff1932",
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -62,9 +62,9 @@ export const USER_CONFIG = {
       // 想要发送的人的名字
       name: "瑶瑶宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oXYx76GCAN3ULJMYphENJ2bX1ius",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "w--6jeTXUtBO8JpNoYqPF6rcL_Jgz0vlEalHgHzrCl4",
       // 所在省份
       province: "湖北",
       // 所在城市
@@ -95,7 +95,7 @@ export const USER_CONFIG = {
         //{"keyword": "ex_day", date: "2022-09-10"},
       ]
     },
-    {
+    /*{
       name: "老婆1",
       id: "",
       useTemplateId: "",
@@ -133,7 +133,7 @@ export const USER_CONFIG = {
     },
     // 你可以不断按格式往下增加
     // ...
-  ],
+  ],*/
   
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
