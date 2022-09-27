@@ -30,7 +30,7 @@ export const USER_CONFIG = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
@@ -38,10 +38,10 @@ export const USER_CONFIG = {
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: false,
+    poetry: true,
     
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
     
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -124,6 +124,29 @@ export const USER_CONFIG = {
         //{"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
         //{"keyword": "ex_day", date: "2022-09-10"},
+      ]
+    },
+    {
+      name: "瑶瑶宝贝",
+      id: "oXYx76MTd8Lwt3LirBHPHEGTIXlM",
+      useTemplateId: "-iWN9iZ6wazInjHdgqnMJUexxiUcEUYdpcmYWfvYecw",
+      province: "湖北",
+      city: "武汉",
+      horoscopeDate: '02-14',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://wangxinleo.cn",
+      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      festivals: [
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "瑶瑶宝贝", "year": "2000", "date": "02-14"},
+        {"type": "生日", "name": "老胡", "year": "1999", "date": "09-17"},
+      ],
+      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2020-02-14"},
       ]
     },
     /*{
